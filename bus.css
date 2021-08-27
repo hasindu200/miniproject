@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content span:nth-child(1) {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(2) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.25s;
+    letter-spacing: 0.1rem;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(3) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(4) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.75s;
+    animation-fill-mode: backwards;
+    letter-spacing: 0.4rem;
+}
+
+.content span:nth-child(5) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.75s;
+    animation-fill-mode: backwards;
+    letter-spacing: 0.4rem;
+}
+
+.content span:nth-child(6) {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(7) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(8) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.75s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(9) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(10) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(11) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(12) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.75s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.heading {
+    padding-bottom: 10%;
+    top: 40%;
+    padding-right: 30%;
+    padding-left: 10%;
+}
+
+#wel {
+    position: relative;
+    color: #000000;
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 4em;
+    letter-spacing: 0.2rem;
+    overflow: hidden;
+}
+
+.busText {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-size: 17px;
+}
+
+.busText {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    font-size: 17px;
+}
+
+
+/* course info */
+
+h1 {
+    margin-left: 30px;
+}
+
+.details {
+    margin-top: 40px;
+    margin-left: 30px;
+    list-style-type: none;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    height: 210px;
+}
+
+.details p {
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 114);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about-right-col {
+    flex-basis: 60%;
+}
+
+.about-right-col img {
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+}
+
+.about-left-col {
+    flex-basis: 40%;
+    padding-left: 100px;
+}
+
+.about-text {
+    max-width: 400px;
+}

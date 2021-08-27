@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Tech Mentors | Computing</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="com.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a
+          >
+        </li>
+        <li>
+          <a href="about.html"
+            ><i class="fa fa-info" aria-hidden="true"></i>About Tech Mentors</a
+          >
+        </li>
+        <li>
+          <a href="offers.html"
+            ><i class="fa fa-gift" aria-hidden="true"></i>Offers</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-graduation-cap"></i>Faculties</a>
+                <div class="faculites">
+                    <ul>
+                        <li><a href="eng.html">Engineering</a></li>
+                        <li><a href="bus.html">Business</a></li>
+                        <li><a href="com.html">Computing</a></li>
+                        <li><a href="arc.html">Architecture</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact Us</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li class="active">
+            <a href="#"
+              ><i class="fa fa-home" aria-hidden="true"></i> &nbsp; Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-info" aria-hidden="true"></i> &nbsp; About Tech
+              Mentors</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-gift" aria-hidden="true"></i> &nbsp; Offers</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-graduation-cap"></i>Faculties</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Contact
+              Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="manuBtn">
+      <img src="img/menu.png" id="menu" />
+    </div>
+
+    <script>
+      var manuBtn = document.getElementById("manuBtn");
+      var sideNav = document.getElementById("sideNav");
+      var menu = document.getElementById("menu");
+
+      sideNav.style.right == "-250px";
+
+      manuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+          menu.src = "img/close.png";
+        } else {
+          sideNav.style.right = "-250px";
+          menu.src = "img/menu.png";
+        }
+      };
+    </script>
+    <div class="heading">
+      <h1 id="wel">Welcome To</h1>
+      <h1 class="content">
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>P</span>
+        <span>U</span>
+        <span>T</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+      </h1>
+    </div>
+    <div class="comText">
+      <p>
+        The Faculty of Computing is equipped with a range of courses
+        specialising<br />
+        in various arms of the IT sector. Students are able to choose a path
+        that<br />
+        is most in line with their requirements,<br />
+      </p>
+      <p>
+        allowing them to pursue substantial careers in their selected field.<br />
+        Combined with an in-house lecturer panel, expansive computer
+        laboratories<br />
+        and hands-on learning, provides its Faculty of Computing students with
+        the<br />
+        ideal environment to develop their computing skills.<br />
+      </p>
+      <p>
+        Our computing degrees are awarded by as approved by the University
+        Grants<br />
+        Commission. The institute is also a Member of the Association of<br />
+        Commonwealth Universities and International Association of
+        Universities<br />
+        (IAU).<br />
+      </p>
+      <p>
+        Students have the option of studying the Curtin University Offshore<br />
+        programmers in Sri Lanka right here at . Students can also complete
+        their<br />
+        degree at one of partner universities in UK, USA, Canada and
+        Australia.<br />
+      </p>
+    </div>
+
+    <!-- course info -->
+
+    <span class="details">
+      <p>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Duration : 4
+        Years
+      </p>
+      <p>
+        <i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp; Entry :January
+        / June
+      </p>
+      <p>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; &nbsp;Location
+        : Kandy
+      </p>
+      <p>
+        <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp; Delivery :
+        Weekdays/ Weekends
+      </p>
+      <p>
+        <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Medium of
+        Instruction: English
+      </p>
+    </span>
+
+    <footer class="footer">
+      <div class="footerContainer">
+        <div class="rows">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Tech Mentors</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h4>Faculties</h4>
+        <ul>
+            <li><a href="eng.html">Engineering</a></li>
+            <li><a href="bus.html">Business</a></li>
+            <li><a href="com.html">ICT</a></li>
+            <li><a href="arc.html">Architecture</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h4>Follow Us</h4>
+
+        <div class="socialLinks">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+</body>
+
+</html>

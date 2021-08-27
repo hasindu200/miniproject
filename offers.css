@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading {
+    /* padding-bottom: 15%;
+    top: 35%;
+    padding-right: 12%; */
+    text-align: center;
+    top: 30%;
+}
+
+.content span:nth-child(1) {
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(2) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.25s;
+    letter-spacing: 0.1rem;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(3) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(4) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.75s;
+    animation-fill-mode: backwards;
+    letter-spacing: 0.4rem;
+}
+
+.content span:nth-child(5) {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(6) {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(7) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(8) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.75s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(9) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(10) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(11) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(12) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 2.75s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(13) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(14) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 3.25s;
+    animation-fill-mode: backwards;
+}
+
+.content span:nth-child(15) {
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation: animate 3s;
+    animation-delay: 3.5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
